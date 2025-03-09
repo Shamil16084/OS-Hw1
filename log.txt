@@ -1,0 +1,106 @@
+Reader 0 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 0 finished reading from Replica 0 (replica0.txt) with content: "Initial content in replica 0" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 1 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 1 finished reading from Replica 1 (replica1.txt) with content: "Initial content in replica 1" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 2 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 2 finished reading from Replica 2 (replica2.txt) with content: "Initial content in replica 2" Status: Readers per replica [0, 0, 1], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #1 at 1741519166476"
+Reader 3 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 3 finished reading from Replica 2 (replica2.txt) with content: "Write #1 at 1741519166476" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 4 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 4 finished reading from Replica 0 (replica0.txt) with content: "Write #1 at 1741519166476" Status: Readers per replica [1, 0, 0], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #2 at 1741519167399"
+Reader 5 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 5 finished reading from Replica 1 (replica1.txt) with content: "Write #2 at 1741519167399" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 6 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 6 finished reading from Replica 0 (replica0.txt) with content: "Write #2 at 1741519167399" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 7 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 7 finished reading from Replica 1 (replica1.txt) with content: "Write #2 at 1741519167399" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 8 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 8 finished reading from Replica 0 (replica0.txt) with content: "Write #2 at 1741519167399" Status: Readers per replica [1, 0, 0], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #3 at 1741519168501"
+Reader 9 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 9 finished reading from Replica 2 (replica2.txt) with content: "Write #3 at 1741519168501" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 10 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 10 finished reading from Replica 1 (replica1.txt) with content: "Write #3 at 1741519168501" Status: Readers per replica [0, 1, 0], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #4 at 1741519169486"
+Reader 11 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 11 finished reading from Replica 2 (replica2.txt) with content: "Write #4 at 1741519169486" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 12 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 12 finished reading from Replica 0 (replica0.txt) with content: "Write #4 at 1741519169486" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 13 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 13 finished reading from Replica 0 (replica0.txt) with content: "Write #4 at 1741519169486" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 14 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 14 finished reading from Replica 1 (replica1.txt) with content: "Write #4 at 1741519169486" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 15 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 15 finished reading from Replica 2 (replica2.txt) with content: "Write #4 at 1741519169486" Status: Readers per replica [0, 0, 1], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #5 at 1741519171059"
+Reader 16 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 16 finished reading from Replica 2 (replica2.txt) with content: "Write #5 at 1741519171059" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 17 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 17 finished reading from Replica 2 (replica2.txt) with content: "Write #5 at 1741519171059" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 18 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 18 finished reading from Replica 2 (replica2.txt) with content: "Write #5 at 1741519171059" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 19 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 19 finished reading from Replica 2 (replica2.txt) with content: "Write #5 at 1741519171059" Status: Readers per replica [0, 0, 1], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #6 at 1741519172705"
+Reader 20 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 20 finished reading from Replica 1 (replica1.txt) with content: "Write #6 at 1741519172705" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 21 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 21 finished reading from Replica 0 (replica0.txt) with content: "Write #6 at 1741519172705" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 22 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 22 finished reading from Replica 1 (replica1.txt) with content: "Write #6 at 1741519172705" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 23 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 23 finished reading from Replica 0 (replica0.txt) with content: "Write #6 at 1741519172705" Status: Readers per replica [1, 0, 0], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #7 at 1741519174099"
+Reader 24 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 24 finished reading from Replica 2 (replica2.txt) with content: "Write #7 at 1741519174099" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 25 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 25 finished reading from Replica 0 (replica0.txt) with content: "Write #7 at 1741519174099" Status: Readers per replica [1, 0, 0], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #8 at 1741519174916"
+Reader 26 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 26 finished reading from Replica 2 (replica2.txt) with content: "Write #8 at 1741519174916" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 27 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 27 finished reading from Replica 1 (replica1.txt) with content: "Write #8 at 1741519174916" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 28 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 28 finished reading from Replica 0 (replica0.txt) with content: "Write #8 at 1741519174916" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 29 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 29 finished reading from Replica 1 (replica1.txt) with content: "Write #8 at 1741519174916" Status: Readers per replica [0, 1, 0], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #9 at 1741519176227"
+Reader 30 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 30 finished reading from Replica 1 (replica1.txt) with content: "Write #9 at 1741519176227" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 31 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 31 finished reading from Replica 2 (replica2.txt) with content: "Write #9 at 1741519176227" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 32 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 32 finished reading from Replica 2 (replica2.txt) with content: "Write #9 at 1741519176227" Status: Readers per replica [0, 0, 1], Writer active: false
+Writer started writing Status: Readers per replica [0, 0, 0], Writer active: true
+Writer finished writing Status: Readers per replica [0, 0, 0], Writer active: true with new content: "Write #10 at 1741519177130"
+Writer completed 10 writes. Terminating writer thread.
+Reader 33 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 33 finished reading from Replica 0 (replica0.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 34 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 34 finished reading from Replica 0 (replica0.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 35 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 35 finished reading from Replica 1 (replica1.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 36 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 36 finished reading from Replica 2 (replica2.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 37 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 37 finished reading from Replica 0 (replica0.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 38 started reading from Replica 0 (replica0.txt) Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 38 finished reading from Replica 0 (replica0.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [1, 0, 0], Writer active: false
+Reader 39 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 39 finished reading from Replica 2 (replica2.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 40 started reading from Replica 2 (replica2.txt) Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 40 finished reading from Replica 2 (replica2.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [0, 0, 1], Writer active: false
+Reader 41 started reading from Replica 1 (replica1.txt) Status: Readers per replica [0, 1, 0], Writer active: false
+Reader 41 finished reading from Replica 1 (replica1.txt) with content: "Write #10 at 1741519177130" Status: Readers per replica [0, 1, 0], Writer active: false
+Simulation finished.
