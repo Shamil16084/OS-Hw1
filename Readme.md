@@ -66,21 +66,8 @@ This project is a Java implementation of the readers-writers problem that balanc
   - Adjust sleep durations to simulate different read/write times.
   - Change the simulation period for spawning readers if desired.
   
-- **Note:**  
-  Ensure any changes maintain the thread-safety and intended behavior of the program.
-
-## Troubleshooting
-- **Compilation Errors:**  
-  - Verify that you have a compatible JDK installed and that the `javac` command is in your PATH.
-- **File I/O Issues:**  
-  - Ensure you have write permissions in the working directory.
-  - If replica files or the log file aren’t created, check that no other process is locking the files.
-
-## License
-This project is provided as-is for educational purposes.
 
 ## Contact
-For any questions or issues, please contact [Your Name] at [Your Email].
+For any questions or issues, please contact Shamil at sabbasov16084@ada.edu.az
 ```
-
-Simply save the above content in a file named `README.md` in your project directory.
+Written and implemented by Shamil Abbasov, 09.03.2025
